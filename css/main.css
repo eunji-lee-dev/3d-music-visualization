@@ -1,0 +1,79 @@
+
+body {
+    background: url('../../asset/imgs/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Anton', sans-serif;
+}
+
+#startButton {
+    font-family: 'Anton', sans-serif;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgba(128,129,247,.4); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-style: none;
+    color: #FFD251;
+    font-size: 2.5rem;
+}
+
+#startButton:hover {
+    background-color: rgba(128,129,247,.6);
+}
+
+#infoMe {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    padding: 0 1rem 1rem 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #FFD251;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f8e1a0;
+}
+
+/* MEDIA QYERY */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #startButton {
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    } 
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #startButton {
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        } 
+
+    #infoMe {
+        font-size: 0.5rem;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    #startButton {
+        width: 7rem;
+        height: 2rem;
+        font-size: 1rem;
+        } 
+
+    #infoMe {
+        font-size: 0.3rem;
+    }
+}
