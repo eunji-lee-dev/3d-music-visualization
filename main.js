@@ -129,7 +129,7 @@ import {OrbitControls} from './OrbitControls.js';
             renderer.render(scene, camera);
             requestAnimationFrame(render);
 
-            console.log(analyser.getFrequencyData()); //test
+            // console.log(analyser.getFrequencyData()); //test
           }  
 
         const onResize = ()=>{
