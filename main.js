@@ -119,7 +119,7 @@ import {OrbitControls} from './OrbitControls.js';
 
             for (let i = 0; i < meshs.length; i++)
             {
-                var scale = 0.1 + freq[i]/500;
+                var scale = 0.1 + freq[i]/800;
                 meshs[i].mesh.scale.x = scale;
                 meshs[i].mesh.scale.y = scale;
                 meshs[i].mesh.scale.z = scale;
