@@ -1,4 +1,4 @@
-# 3d-music-visualization
+# 3D-music-visualization
 
 An audio visualization with Three.js
 
