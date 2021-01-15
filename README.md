@@ -2,4 +2,4 @@
 
 An audio visualization with Three.js
 
-https://3d-music-visualization.netlify.app/
+https://eunji-3d-project.netlify.app/
